@@ -7,7 +7,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+      GPSService service = gameObject.AddComponent<GPSService>();
     }
 
     // Update is called once per frame
